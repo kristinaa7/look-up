@@ -1,0 +1,27 @@
+[
+    {
+        "filename": "1-orange-clouds.jpg",
+        "description": "orange clouds",
+        "user_id": 1
+    },
+    {
+        "filename": "2-cumulus-clouds.jpg",
+        "description": "cumulus clouds",
+        "user_id": 1
+    },
+    {
+        "filename": "3-blue-night-sky.jpg",
+        "description": "blue night sky with stars",
+        "user_id": 2
+    },
+    {
+        "filename": "4-white-clouds.jpg",
+        "description": "white clouds",
+        "user_id": 3
+    },
+    {
+        "filename": "5-moon.jpg",
+        "description": "moon",
+        "user_id": 4
+    }
+]
