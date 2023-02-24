@@ -11,12 +11,9 @@ Post.init(
       primaryKey: true,
       autoIncrement: true,
     },
-    filename: {
+    file_URL: {
       type: DataTypes.STRING,
       allowNull: false,
-    },
-    description: {
-      type: DataTypes.STRING,
     },
     date_created: {
       type: DataTypes.DATE,
