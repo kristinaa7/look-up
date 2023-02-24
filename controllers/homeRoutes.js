@@ -40,6 +40,7 @@ router.get('/post/:id', async (req, res) => {
       ],
     });
 
+    //We use .get({ plain: true }) on the object to serialize it so that it only includes the data that we need. 
     const post = postData.get({ plain: true });
 
     //This methods renders the 'post' template
