@@ -2,7 +2,7 @@ const router = require('express').Router();
 const { Post, User } = require('../models');
 const withAuth = require('../utils/auth');
 
-// This is the 'get' route 
+// This is the 'get' route for getting all the posts 
 router.get('/', async (req, res) => {
   try {
     // Get all posts and JOIN with user data
@@ -18,7 +18,7 @@ router.get('/', async (req, res) => {
     // Serialize data so the template can read it
     const posts = projectData.map((post) => post.get({ plain: true }));
 
-    // Pass serialized data and session flag into template
+    // Renders the 'homepage' Handlebars.js template. This is how we connect each route to the correct template.
     res.render('homepage', { 
       posts, 
       logged_in: req.session.logged_in 
@@ -28,6 +28,7 @@ router.get('/', async (req, res) => {
   }
 });
 
+// This is the 'get' route to get one post 
 router.get('/post/:id', async (req, res) => {
   try {
     const postData = await Post.findByPk(req.params.id, {
@@ -41,6 +42,7 @@ router.get('/post/:id', async (req, res) => {
 
     const post = postData.get({ plain: true });
 
+    //This methods renders the 'post' template
     res.render('post', {
       ...post,
       logged_in: req.session.logged_in
@@ -70,6 +72,7 @@ router.get('/profile', withAuth, async (req, res) => {
   }
 });
 
+// This is the 'get' route 
 router.get('/login', (req, res) => {
   // If the user is already logged in, redirect the request to another route
   if (req.session.logged_in) {
