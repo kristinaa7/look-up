@@ -1,8 +1,9 @@
 const router = require('express').Router();
 const { Post, User } = require('../models');
+// Import the custom middleware\
 const withAuth = require('../utils/auth');
 
-// This is the 'get' route for getting all the posts 
+// GET route for getting all the posts 
 router.get('/', async (req, res) => {
   try {
     // Get all posts and JOIN with user data
@@ -28,7 +29,7 @@ router.get('/', async (req, res) => {
   }
 });
 
-// This is the 'get' route to get one post 
+// GET route to get one post by id 
 router.get('/post/:id', async (req, res) => {
   try {
     const postData = await Post.findByPk(req.params.id, {
@@ -73,7 +74,7 @@ router.get('/profile', withAuth, async (req, res) => {
   }
 });
 
-// This is the 'get' route 
+// GET route
 router.get('/login', (req, res) => {
   // If the user is already logged in, redirect the request to another route
   if (req.session.logged_in) {
