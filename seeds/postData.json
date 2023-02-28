@@ -1,26 +1,26 @@
 [
     {
-        "filename": "1-orange-clouds.jpg",
+        "file_URL": "https://images.pexels.com/photos/2627945/pexels-photo-2627945.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         "description": "orange clouds",
         "user_id": 1
     },
     {
-        "filename": "2-cumulus-clouds.jpg",
+        "file_URL": "https://images.pexels.com/photos/1605148/pexels-photo-1605148.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         "description": "cumulus clouds",
         "user_id": 1
     },
     {
-        "filename": "3-blue-night-sky.jpg",
+        "file_URL": "https://images.pexels.com/photos/4737484/pexels-photo-4737484.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         "description": "blue night sky with stars",
         "user_id": 2
     },
     {
-        "filename": "4-white-clouds.jpg",
+        "file_URL": "https://images.pexels.com/photos/3560044/pexels-photo-3560044.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         "description": "white clouds",
         "user_id": 3
     },
     {
-        "filename": "5-moon.jpg",
+        "file_URL": "https://images.pexels.com/photos/773294/pexels-photo-773294.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         "description": "moon",
         "user_id": 4
     }
