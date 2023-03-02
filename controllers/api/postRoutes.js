@@ -2,6 +2,17 @@ const router = require('express').Router();
 const { Post } = require('../../models');
 const withAuth = require('../../utils/auth');
 
+// The `/api/posts` endpoint
+router.get('/', async (req, res) => {
+  try {
+    const userData = await Post.findAll({
+    });
+    res.status(200).json(userData);
+  } catch (err) {
+    res.status(500).json(err);
+  }
+  });
+
 // CREATE new post
 router.post('/', withAuth, async (req, res) => {
   try {
