@@ -1,27 +1,27 @@
 [
     {
         "file_URL": "https://images.pexels.com/photos/2627945/pexels-photo-2627945.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-        "description": "orange clouds",
+        "date_created": "01/22/2021",
         "user_id": 1
     },
     {
         "file_URL": "https://images.pexels.com/photos/1605148/pexels-photo-1605148.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-        "description": "cumulus clouds",
+        "date_created": "01/22/2021",
         "user_id": 1
     },
     {
         "file_URL": "https://images.pexels.com/photos/4737484/pexels-photo-4737484.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-        "description": "blue night sky with stars",
+        "date_created": "01/22/2021",
         "user_id": 2
     },
     {
         "file_URL": "https://images.pexels.com/photos/3560044/pexels-photo-3560044.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-        "description": "white clouds",
+        "date_created": "01/22/2021",
         "user_id": 3
     },
     {
         "file_URL": "https://images.pexels.com/photos/773294/pexels-photo-773294.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-        "description": "moon",
+        "date_created": "01/22/2021",
         "user_id": 4
     }
 ]
