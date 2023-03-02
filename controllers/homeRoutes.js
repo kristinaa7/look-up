@@ -1,6 +1,6 @@
 const router = require('express').Router();
 const { Post, User } = require('../models');
-// Import the custom middleware\
+// Import the custom middleware
 const withAuth = require('../utils/auth');
 
 // GET route for getting all the posts 
@@ -17,7 +17,7 @@ router.get('/', async (req, res) => {
     });
 
     // Serialize data so the template can read it
-    const posts = projectData.map((post) => post.get({ plain: true }));
+    const posts = postData.map((post) => post.get({ plain: true }));
 
     // Renders the 'homepage' Handlebars.js template. This is how we connect each route to the correct template.
     res.render('homepage', { 
