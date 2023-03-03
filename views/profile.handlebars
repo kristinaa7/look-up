@@ -10,6 +10,12 @@
   </div>
 </div>
 
+<div>
+    <form method="post" enctype="multipart/form-data">
+    <input type="file" name="files[]" multiple>
+    <input type="submit" value="Upload Files" name="submit">
+    </form>
+</div>
 {{#each posts as |post|}}
 <div class="center">
     
@@ -26,3 +32,5 @@
     
 </div>
 {{/each}}
+
+<script  src="/public/js/upload.js"></script>
