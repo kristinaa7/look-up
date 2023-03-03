@@ -21,7 +21,8 @@ router.post('/', async (req, res) => {
       password: req.body.password,
     });
     req.session.save(() => {
-      req.session.loggedIn = true;
+      req.session.logged_in = true;
+      req.session.user_id = userData.id;
       res.status(200).json(userData);
     });
   } catch (err) {
@@ -31,7 +32,9 @@ router.post('/', async (req, res) => {
 });
 
 // Login
+// Endpoint: /api/users/login
 router.post('/login', async (req, res) => {
+  console.log("----------------hey");
   try {
     const userData = await User.findOne({
       where: {
