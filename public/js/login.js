@@ -43,15 +43,7 @@ const signupFormHandler = async (event) => {
   }
 };
 
-const test = (event) => {
-  event.preventDefault();
 
-  console.log("------------test");
-};
-
-// const submitBtn = document.getElementById('loginbtn');
-
-// console.log(submitBtn);
 if (document.getElementById('loginbtn')) {
   document
   .getElementById('loginbtn')
@@ -66,4 +58,4 @@ if (document.getElementById('signupbtn')) {
 
 
 
-  
+
