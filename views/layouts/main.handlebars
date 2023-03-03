@@ -10,31 +10,33 @@
         <link rel="stylesheet" href="css/card.css"/>
         <link rel="stylesheet" href="css/profile.css"/>
 </head>
+
 <body>
-        <div id="header">
-            <div class="container">
-                <nav>
-                    <ul id="sidemenu">
-                        <li><a href="/">Home</a> </li>
-                        {{#if loggedIn}}
-                        <li><a href="/logout">Logout</a> </li>
-                        {{else}}
-                        <li><a href="/login">Login/Signup</a> </li>
-                        {{/if}}
-                        <li><a href=""> Create a Post</a> </li>
-                        <li><a href="/profile"> Profile</a> </li>
-                        {{{body}}}
-                        <i class="fa-solid fa-xmark" onclick="closemenu"></i>
-                    </ul>
-                    <i class="fa-solid fa-bars" onclick="openmenu"></i>
-                </nav>
-                {{#if loggedIn}}
-                <script src="/js/logout.js"></script>
-                {{/if}}
-                <div class="header-text">
-                    <h1>Look Up! Have a Look!</h1>
-                </div>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul id="sidemenu">
+                    <li><a href="/">Home</a> </li>
+                    {{#if loggedIn}}
+                    <li><a href="/logout">Logout</a> </li>
+                    {{else}}
+                    <li><a href="/login">Login/Signup</a> </li>
+                    {{/if}}
+                    <li><a href=""> Create a Post</a> </li>
+                    <li><a href="/profile"> Profile</a> </li>
+                    {{{body}}}
+                    <i class="fa-solid fa-xmark" onclick="closemenu"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu"></i>
+            </nav>
+            {{#if loggedIn}}
+            <script src="/js/logout.js"></script>
+            {{/if}}
+            <div class="header-text">
+                <h1>Look Up! Have a Look!</h1>
             </div>
         </div>
+    </div>
 </body>
+
 </html>

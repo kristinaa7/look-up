@@ -1,24 +1,24 @@
-    <div class="card">
-        <div class="img-bx">
-          <img src="/public/css/img/look-up-bg.jpeg" alt="img" />
-        </div>
-        <div class="content">
-          <div class="detail">
-            <h2>Name<br /><span>Description</span></h2>
-            <ul class="sci">
-              <li>
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-              </li>
-              <li>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-              </li>
-              <li>
-                <a href="#"><i class="fab fa-linkedin-in"></i></a>
-              </li>
-              <li>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-              </li>
-            </ul>
-          </div>
-        </div>
+<div class="card">
+  <div class="img-bx">
+    <img src="/public/css/img/look-up-bg.jpeg" alt="img" />
+  </div>
+        
+  <div class="content">
+    <div class="detail">
+      <h2>{{username}}<br /><span>Welcome to my profile!</span></h2>
+    </div>
+  </div>
+</div>
+
+{{#each posts as |post|}}
+<div class="center">
+    <a href="{{file_URL}}" target="_blank">
+    <div class="article-card">
+      <div class="content">
+        <p class="date">Posted on: {{format_date date_created}}</p>
       </div>
+      <img src="{{file_URL}}" alt="article-cover" width="450px" height="450px"/>
+    </div>
+    </a>
+</div>
+{{/each}}
