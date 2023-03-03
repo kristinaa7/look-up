@@ -17,8 +17,8 @@
                 <nav>
                     <ul id="sidemenu">
                         <li><a href="/">Home</a> </li>
-                        {{#if loggedIn}}
-                        <li><a href="/logout" id="logout">Logout</a> </li>
+                        {{#if logged_in}}
+                        <li><button type="submit" id="logout">Logout</button> </li>
                         {{else}}
                         <li><a href="/login">Login</a> </li>
                         {{/if}}
@@ -32,15 +32,16 @@
                     <i class="fa-solid fa-bars" onclick="openmenu"></i>
                 </nav>
                 
-                {{#if loggedIn}}
+                {{#if logged_in}}
                 <script src="/js/logout.js"></script>
                 {{/if}}
                 
             </div>
         </div>
+        
         {{!-- About --}}
 
-    <div id="contact" class="contact"> 
+    {{!-- <div id="contact" class="contact"> 
         <div class="container">
             <div class="row">
                 <div class="contact-left">
@@ -48,7 +49,7 @@
                 </div>
             </div>
         </div>
-    </div>        
+    </div>         --}}
     
     <script src="/js/login.js"></script>
 </body>
