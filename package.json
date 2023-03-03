@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "seed": "node seeds/seed.js"
+    "seed": "node seeds/seed.js",
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -30,5 +31,8 @@
   "bugs": {
     "url": "https://github.com/kristinaa7/look-up/issues"
   },
-  "homepage": "https://github.com/kristinaa7/look-up#readme"
+  "homepage": "https://github.com/kristinaa7/look-up#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
 }
