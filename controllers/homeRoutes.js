@@ -29,31 +29,6 @@ router.get('/', async (req, res) => {
   }
 });
 
-// GET route to get one post by id 
-router.get('/post/:id', async (req, res) => {
-  try {
-    const postData = await Post.findByPk(req.params.id, {
-      include: [
-        {
-          model: User,
-          attributes: ['username'],
-        },
-      ],
-    });
-
-    //We use .get({ plain: true }) on the object to serialize it so that it only includes the data that we need. 
-    const post = postData.get({ plain: true });
-
-    //This methods renders the 'post' template
-    res.render('post', {
-      ...post,
-      logged_in: req.session.logged_in
-    });
-  } catch (err) {
-    res.status(500).json(err);
-  }
-});
-
 // Use withAuth middleware to prevent access to route
 router.get('/profile', withAuth, async (req, res) => {
   try {
