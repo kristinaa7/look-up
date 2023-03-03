@@ -7,8 +7,8 @@
     <title>Look Up</title>
         <link rel="stylesheet" href="css/login.css"/>
         <link rel="stylesheet" href="css/home.css"/>
-        <link rel="stylesheet" href="css/card.css"/>
-        <link rel="stylesheet" href="css/profile.css"/>
+        {{!-- <link rel="stylesheet" href="css/card.css"/> --}}
+        <link rel="stylesheet" href="css/profile.css"/> 
 </head>
 <body>
         <div id="header">
@@ -21,7 +21,6 @@
                         {{else}}
                         <li><a href="/login">Login/Signup</a> </li>
                         {{/if}}
-                        <li><a href=""> Create a Post</a> </li>
                         <li><a href="/profile"> Profile</a> </li>
                         {{{body}}}
                         <i class="fa-solid fa-xmark" onclick="closemenu"></i>
