@@ -61,8 +61,36 @@
   
   nav ul li a:hover::after {
     width: 100%;
+
+  }
+
+  #logout {
+    border: none;
+    background: none;
+    color: #fff;
+    font-size: 18px;
+    position: relative;
+  }
+
+  #logout:hover::after {
+    width: 100%;
+  }
+
+  #logout::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color: #0408ff;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
   }
   
+  button {
+    cursor: pointer;
+  }
+
   .header-text {
     margin-top: 20%;
     font-size: 30px;
