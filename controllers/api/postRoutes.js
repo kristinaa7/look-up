@@ -14,6 +14,7 @@ router.get('/', async (req, res) => {
   });
 
 // CREATE new post
+//need to add cloudinary
 router.post('/', withAuth, async (req, res) => {
   try {
     const newPost = await Post.create({
