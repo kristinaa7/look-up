@@ -29,7 +29,7 @@ From the homepage, you can navigate to the login page to make an account. If you
 * Multer
 * Nodemon
 
-### Continued development
+### Continued Development
 We are actively considering the following for future development:
 
 * Users can delete their own post
