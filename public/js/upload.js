@@ -7,13 +7,13 @@ pictureUpload.addEventListener("submit", (e) => {
     console.log('files', files);
     const formData = new FormData();
 
-    for (let i = 0; i < files.length; i++) {
-      let file = files[i];
-      formData.append("file", file);
-      formData.append("upload_preset", "docs_upload_example_us_preset");
+    // for (let i = 0; i < files.length; i++) {
+    //   let file = files[i];
+      formData.append("file", files[0]);
+      // formData.append("upload_preset", "docs_upload_example_us_preset");
   
       console.log('form data', formData)
-
+    // }
       fetch('/api/posts', {
         
         method: "POST",
@@ -23,8 +23,9 @@ pictureUpload.addEventListener("submit", (e) => {
           return response.text();
         })
         .then((data) => {
+          console.log(data)
           document.getElementById("data").innerHTML += data;
         });
-    }
+    
   });
   
