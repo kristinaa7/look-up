@@ -9,7 +9,7 @@
   - [Continued development](#continued-development)
 - [Authors](#authors)
 
-## Overview
+## Description
 Look Up is a destressing social media app where users can create their own profile to post post beautiful pictures of the sky. For example, you may be passing a beautiful bird in the sky or a beautiful sunset with no one to share it with and Look Up is the perfect application to uplift your spirit. Our only rule is, your camera MUST be pointed to the sky.
 
 ### Screenshot
