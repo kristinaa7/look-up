@@ -13,6 +13,7 @@ router.get('/', async (req, res) => {
   });
 
 // CREATE new user
+//fix
 router.post('/', async (req, res) => {
   try {
     const userData = await User.create({
@@ -34,7 +35,6 @@ router.post('/', async (req, res) => {
 // Login
 // Endpoint: /api/users/login
 router.post('/login', async (req, res) => {
-  console.log("----------------hey");
   try {
     const userData = await User.findOne({
       where: {
@@ -70,6 +70,7 @@ router.post('/login', async (req, res) => {
   }
 });
 
+//debug
 // Logout
 router.post('/logout', (req, res) => {
   if (req.session.logged_in) {
@@ -79,6 +80,7 @@ router.post('/logout', (req, res) => {
   } else {
     res.status(404).end();
   }
+  res.redirect("/");
 });
 
 module.exports = router;
