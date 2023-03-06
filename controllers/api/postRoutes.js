@@ -21,7 +21,7 @@ router.get('/', async (req, res) => {
 
 // CREATE new post
 //need to add cloudinary
-router.post('/', withAuth, upload.single('image'), async (req, res) => {
+router.post('/', withAuth, upload.single('file'), async (req, res) => {
   try {
     console.log('req.body', req.body);
     // Get the path for the uploaded image that is provided by the multer middleware
