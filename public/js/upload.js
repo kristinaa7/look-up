@@ -4,6 +4,7 @@ pictureUpload.addEventListener("submit", (e) => {
     e.preventDefault();
   
     const files = document.querySelector("[type=file]").files;
+    console.log('files', files);
     const formData = new FormData();
 
     for (let i = 0; i < files.length; i++) {

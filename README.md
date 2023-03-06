@@ -33,6 +33,7 @@ Express
 Sequelize
 Node.JS
 Javascript
+multer
 
 ### Continued development
 
