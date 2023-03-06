@@ -1,7 +1,7 @@
 const router = require('express').Router();
 const { Post } = require('../../models');
 const withAuth = require('../../utils/auth');
-//add a comment here
+//Meuler package needed to handle form data used to upload files
 const multer = require('multer');
 
 const upload = multer()
