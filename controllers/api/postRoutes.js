@@ -1,6 +1,10 @@
 const router = require('express').Router();
 const { Post } = require('../../models');
 const withAuth = require('../../utils/auth');
+//add a comment here
+const multer = require('multer');
+
+const upload = multer()
 
 const cloudinary = require('../../utils/cloudinary');
 
@@ -17,10 +21,11 @@ router.get('/', async (req, res) => {
 
 // CREATE new post
 //need to add cloudinary
-router.post('/', withAuth, async (req, res) => {
+router.post('/', withAuth, upload.single('image'), async (req, res) => {
   try {
     console.log('req.body', req.body);
     // Get the path for the uploaded image that is provided by the multer middleware
+    console.log('req.file', req.file);
       const imagePath = req.file.path;
     // upload the image to cloudinary
     const image = await cloudinary.uploader.upload(imagePath);
