@@ -3,10 +3,11 @@
 ## Table of Contents
 
 - [Description](#description)
-  - [Screenshot](#screenshot)
-  - [Deloyed Link](#Deployed-link)
-  - [Built with](#built-with)
-  - [Continued development](#continued-development)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [Deloyed Link](#deloyed-link)
+- [Built with](#built-with)
+- [Continued Development](#continued-development)
 - [Authors](#authors)
 
 ## Description
