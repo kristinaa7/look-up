@@ -23,7 +23,7 @@
   }
 
   .move1 {
-    margin-top: -32px;
+    margin-top: 10px;
   }
 
   html{
@@ -146,6 +146,7 @@
     justify-content: center;
     left: 450px;
     position: relative;
+    margin-top: 10px;
 
   }
   
