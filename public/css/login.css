@@ -1,14 +1,16 @@
-*,
+/* *,
 *::before,
 *::after {
 	box-sizing: border-box;
-}
+} */
 
 .forms-section {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	position: relative;
+	left: 80%;
 }
 
 .section-title {
@@ -20,7 +22,8 @@
 .forms {
 	display: flex;
 	align-items: flex-start;
-	margin-top: 30px;
+	margin-top: 80px;
+	margin-bottom: 250px;
 }
 
 .form-wrapper {

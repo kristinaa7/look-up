@@ -1,12 +1,9 @@
-<div class="card">
-  <div class="content">
-    <div class="detail">
-      <h2>Welcome to {{username}}'s profile!</h2>
-    </div>
-  </div>
-</div>
 
-<div>
+      <h2 class="small">{{username}}<br /><span>Welcome to your profile!</span></h2>
+=======
+
+{{!-- Upload a photo --}}
+<div class='small1'>
   <form id="pictureUpload">
     <div>
       <label for="file" class="form-label">Upload an Image Here<br> </label>
@@ -16,11 +13,13 @@
   </form>
 </div>
 
-{{#each posts as |post|}}
-<div class="center">
 
-  <div class="article-card">
-    <div class="content">
+{{!-- User post as a card --}}
+{{#each posts as |post|}}
+<div class="center28">
+
+  <div class="article-card28">
+    <div class="content28">
       <p class="date">Posted on: {{format_date date_created}}</p>
     </div>
     <div>
