@@ -35,7 +35,6 @@
   }
   
   .article-card28 .content28 {
-    /* margin-top: 68px; */
     box-sizing: border-box;
     width: 100%;
     position: absolute;
@@ -64,6 +63,5 @@
   nav {
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
     flex-wrap: wrap;
   }

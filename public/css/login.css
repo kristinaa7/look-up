@@ -1,9 +1,3 @@
-/* *,
-*::before,
-*::after {
-	box-sizing: border-box;
-} */
-
 .forms-section {
 	display: flex;
 	flex-direction: column;
