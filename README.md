@@ -2,46 +2,48 @@
 
 ## Table of Contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
+- [Description](#description)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+- [Authors](#authors)
 
-## Overview
+## Description
+Look Up is a destressing social media app where users can create their own profile to post post beautiful pictures of the sky. For example, you may be passing a beautiful bird in the sky or a beautiful sunset with no one to share it with and Look Up is the perfect application to uplift your spirit. Our only rule is, your camera MUST be pointed to the sky.
 
-### The Challenge
+## Usage
+From the homepage, you can navigate to the login page to make an account. If you are not logged in and click profile in the nav bar, you will be redirected to the signup/login page. To create an account, type in your preferred username, your email and create a password that is longer than 8 characters. When you login, you were be redirected to your profile page that will show all the pictures you have posted. When you navigate to the home page, there you will see all the posts from registered users in the feed. Users can log out when they are done. They can view the home page and posts without signing it, however if they want to post another image, the users might login back into their account.
 
 ### Screenshot
 
 ### Links
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Deloyed Heroku Link: [Add solution URL here](https://your-solution-url.com)
 
-## Our process
+## Built with
+* Cloudinary 
+* Express
+* Sequelize
+* Node.js
+* Javascript
+* Multer
+* Nodemon
 
-### Built with
-https://uiverse.io/forms
-Cloudinary 
-Express
-Sequelize
-Node.JS
-Javascript
-multer
+### Continued Development
+We are actively considering the following for future development:
 
-### Continued development
+* Users can delete their own post
+* Users can upload more than one picture at a time
+* Users can add captions to their photos 
+* Other users can like/love/share a photo 
+* Search button to look for other users’ posts and profiles
+* Location services - so that users can look at sky images from different parts of the world
+* Users that create a post will be added to the feed and filtered by posted by date 
 
-### Useful resources
 
-## Author
-  Betty Lu, Kristina Alabastro-Dukes, Amal Engulatov, and Jordan Dukes
-- Website - [your name or website url](https://www.your-site.com)
-- GitHub - [your GitHub username](https://github.com/yourusername)
-
-## Acknowledgments
+## Authors
+  Betty Lu, Kristina Dukes, Amal Engulatov, and Jordan Dukes
+  - Betty Lu's Portfolio: [Add live site URL here](https://your-live-site-url.com)
+  - Kristina Dukes's Portolio: 
+  - Amal Engulatov's Portolio:
+  - Jordan Dukes's Portolio: 
