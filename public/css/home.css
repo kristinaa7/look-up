@@ -3,14 +3,6 @@
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
   }
-/* 
-  .jd{
-    position: fixed;
-    width: 100%;
-    background-color: black;
-    height: 42px;
-    margin-top: 0%;
-  } */
 
   .menuplus {
     position: fixed;
@@ -42,16 +34,11 @@
     background-position: center;
   }
   
-  .container {
-    /* padding: 15px 10%; */
-  }
   
   nav {
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
     flex-wrap: wrap;
-    use position:fixed and top:0
   }
   
   .logo {
@@ -130,13 +117,6 @@
     color: #0408ff
   }
   
-  
-
-
-
-
-
-
 /* css for cards */
 
   .center28 {
@@ -147,10 +127,8 @@
     left: 550px;
     position: relative;
     margin-top: 10px;
-
   }
   
-
   .article-card28{
     margin-top: 70%;
     width: 300px;
@@ -175,7 +153,6 @@
   }
   
   .article-card28 .content28 {
-    /* margin-top: 68px; */
     box-sizing: border-box;
     width: 100%;
     position: absolute;
@@ -204,10 +181,8 @@
   nav {
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
     flex-wrap: wrap;
   }
-
 
   /* profile */
 

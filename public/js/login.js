@@ -1,3 +1,4 @@
+//users are able to login with a email and password
 const loginFormHandler = async (event) => {
   event.preventDefault();
 
@@ -21,6 +22,7 @@ const loginFormHandler = async (event) => {
   }
 };
 
+//users are able to create an account with a valid username, email and password
 const signupFormHandler = async (event) => {
   event.preventDefault();
 
@@ -43,13 +45,14 @@ const signupFormHandler = async (event) => {
   }
 };
 
-
+//user can login when button is clicked
 if (document.getElementById('loginbtn')) {
   document
   .getElementById('loginbtn')
   .addEventListener('click', loginFormHandler);
 };
 
+//user can log out when button is clicked
 if (document.getElementById('signupbtn')) {
   document
   .getElementById('signupbtn')
