@@ -1,12 +1,12 @@
-<div class="card">
-  <div class="content">
-    <div class="detail">
-      <h2>{{username}}<br /><span>Welcome to your profile!</span></h2>
-    </div>
+{{!-- <div class="card28">
+  <div class="content28">
+    <div class="detail28"> --}}
+      <h2 class="small">{{username}}<br /><span>Welcome to your profile!</span></h2>
+    {{!-- </div>
   </div>
-</div>
+</div> --}}
 
-<div>
+<div class='small1'>
   <form id="pictureUpload">
     <div>
       <label for="file" class="form-label">Upload an Image Here<br> </label>
@@ -15,6 +15,8 @@
     <button type="submit" class="btn btn-primary">Submit</button>
   </form>
 </div>
+
+
 {{#each posts as |post|}}
 <div class="center28">
 
