@@ -21,7 +21,7 @@ From the homepage, you can navigate to the login page to make an account. If you
 ![Alt text](screenshots/login.png "Login")
 
 ### Deloyed Link
-- Heroku Link: [Add solution URL here](https://your-solution-url.com)
+- Heroku Link: [https://look-up-project-2.herokuapp.com/]
 
 ## Built with
 * Cloudinary 
