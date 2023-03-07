@@ -16,9 +16,12 @@ Look Up is a destressing social media app where users can create their own profi
 From the homepage, you can navigate to the login page to make an account. If you are not logged in and click profile in the nav bar, you will be redirected to the signup/login page. To create an account, type in your preferred username, your email and create a password that is longer than 8 characters. When you login, you were be redirected to your profile page that will show all the pictures you have posted. When you navigate to the home page, there you will see all the posts from registered users in the feed. Users can log out when they are done. They can view the home page and posts without signing it, however if they want to post another image, the users might login back into their account.
 
 ### Screenshot
+![Alt text](screenshots/home.png "Homepage")
+![Alt text](screenshots/profile.png "Profile")
+![Alt text](screenshots/login.png "Login")
 
-### Links
-- Deloyed Heroku Link: [Add solution URL here](https://your-solution-url.com)
+### Deloyed Link
+- Heroku Link: [Add solution URL here](https://your-solution-url.com)
 
 ## Built with
 * Cloudinary 
@@ -29,7 +32,7 @@ From the homepage, you can navigate to the login page to make an account. If you
 * Multer
 * Nodemon
 
-### Continued Development
+## Continued Development
 We are actively considering the following for future development:
 
 * Users can delete their own post
@@ -40,10 +43,5 @@ We are actively considering the following for future development:
 * Location services - so that users can look at sky images from different parts of the world
 * Users that create a post will be added to the feed and filtered by posted by date 
 
-
 ## Authors
   Betty Lu, Kristina Dukes, Amal Engulatov, and Jordan Dukes
-  - Betty Lu's Portfolio: [Add live site URL here](https://your-live-site-url.com)
-  - Kristina Dukes's Portolio: 
-  - Amal Engulatov's Portolio:
-  - Jordan Dukes's Portolio: 
