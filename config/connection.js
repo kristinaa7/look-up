@@ -1,3 +1,4 @@
+//requires Sequelize
 const Sequelize = require('sequelize');
 
 //Enables access to .env variables
