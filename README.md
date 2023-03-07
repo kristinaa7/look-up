@@ -4,7 +4,7 @@
 
 - [Description](#description)
   - [Screenshot](#screenshot)
-  - [Deloyed Link](#deployed-link)
+  - [Deloyed Link](#Deployed-link)
   - [Built with](#built-with)
   - [Continued development](#continued-development)
 - [Authors](#authors)
