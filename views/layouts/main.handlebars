@@ -8,14 +8,17 @@
         <link rel="stylesheet" href="css/login.css"/>
         <link rel="stylesheet" href="css/home.css"/>
         {{!-- <link rel="stylesheet" href="css/card.css"/> --}}
-        {{!-- <link rel="stylesheet" href="css/profile.css"/>  --}}
+        <link rel="stylesheet" href="css/profile.css"/> 
 </head>
-
+{{!-- <nav class="jd">
+    HOME
+</nav> --}}
 <body>
         <div id="header">
             <div class="container">
-                <nav>
+                <nav class="move1">
                     <ul id="sidemenu">
+                        <div class="menuplus">
                         <li><a href="/">Home</a> </li>
                         {{#if logged_in}}
                         <li><button type="submit" id="logout">Logout</button> </li>
@@ -24,12 +27,13 @@
                         {{/if}}
                         <li><a href="/profile"> Profile</a> </li>
                         <div class="header-text">
-                            <h1>Look <span> Up </span>! Have a Look!</h1>
+                            <h1>Look <span> Up </span></h1>
+                        </div>
                         </div>
                         {{{body}}}
-                        <i class="fa-solid fa-xmark" onclick="closemenu"></i>
+                        
                     </ul>
-                    <i class="fa-solid fa-bars" onclick="openmenu"></i>
+                    
                 </nav>
                 
                 {{#if logged_in}}

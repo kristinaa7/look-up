@@ -1,9 +1,31 @@
 * {
-    margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
   }
+/* 
+  .jd{
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    height: 42px;
+    margin-top: 0%;
+  } */
+
+  .menuplus {
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    height: 42px;
+    margin-top: 0%;
+    left: 0px;
+    top: 0px;
+  }
+
+  .move1 {
+    margin-top: -32px;
+  }
+
   html{
     scroll-behavior: smooth;
   }
@@ -14,21 +36,22 @@
   
   #header {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background:  linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.73)), url('/css/img/look-up-bg.jpeg')  no-repeat center center fixed;
     background-size: cover;
     background-position: center;
   }
   
   .container {
-    padding: 15px 10%;
+    /* padding: 15px 10%; */
   }
   
   nav {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     flex-wrap: wrap;
+    use position:fixed and top:0
   }
   
   .logo {
@@ -92,13 +115,15 @@
   }
 
   .header-text {
-    margin-top: 20%;
+    margin-top: -40px;
     font-size: 30px;
+    margin-left: 1255px;
   }
   
   .header-text h1 {
-    font-size: 60px;
-    margin-top: 20px;
+    font-size: 25px;
+    margin-top: 5px;
+
   }
   
   .header-text h1 span {
@@ -106,3 +131,78 @@
   }
   
   
+
+
+
+
+
+
+/* css for cards */
+
+  .center28 {
+    transform: scale(1.5);
+    height: 30vh;
+    align-items: center;
+    justify-content: center;
+    left: 450px;
+    position: relative;
+
+  }
+  
+
+  .article-card28{
+    margin-top: 70%;
+    width: 300px;
+    height: 200px;
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 300ms;
+  }
+  
+  .article-card28:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+  
+  .article-card28 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .article-card28 .content28 {
+    /* margin-top: 68px; */
+    box-sizing: border-box;
+    width: 100%;
+    position: absolute;
+    padding: 10px 20px 20px 20px;
+    height: auto;
+    bottom: 0;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.6));
+  }
+  
+  .article-card28 .date28,
+  .article-card28 .title28 {
+    margin: 0;
+  }
+  
+  .article-card28 .date28 {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 4px;
+  }
+  
+  .article-card28 .title28 {
+    font-size: 17px;
+    color: #fff;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+  }

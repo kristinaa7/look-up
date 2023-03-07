@@ -1,14 +1,17 @@
-.center {
+.center28 {
     transform: scale(1.5);
-    height: 100vh;
-    display: flex;
+    height: 80vh;
     align-items: center;
     justify-content: center;
+    display: grid;
+  grid-template-rows: max-content 200px 1fr;
   }
   
-  .article-card {
-    width: 350px;
-    height: 220px;
+
+  .article-card28{
+    margin-top: 70%;
+    width: 200px;
+    height: 150px;
     border-radius: 12px;
     overflow: hidden;
     position: relative;
@@ -17,40 +20,47 @@
     transition: all 300ms;
   }
   
-  .article-card:hover {
+  .article-card28:hover {
     transform: translateY(-2px);
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   }
   
-  .article-card img {
+  .article-card28 img {
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
   
-  .article-card .content {
+  .article-card28 .content28 {
+    /* margin-top: 68px; */
     box-sizing: border-box;
     width: 100%;
     position: absolute;
-    padding: 30px 20px 20px 20px;
+    padding: 10px 20px 20px 20px;
     height: auto;
     bottom: 0;
     background: linear-gradient(transparent, rgba(0, 0, 0, 0.6));
   }
   
-  .article-card .date,
-  .article-card .title {
+  .article-card28 .date28,
+  .article-card28 .title28 {
     margin: 0;
   }
   
-  .article-card .date {
+  .article-card28 .date28 {
     font-size: 12px;
     color: rgba(255, 255, 255, 0.9);
     margin-bottom: 4px;
   }
   
-  .article-card .title {
+  .article-card28 .title28 {
     font-size: 17px;
     color: #fff;
   }
   
+  nav {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+  }
