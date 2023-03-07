@@ -16,7 +16,7 @@ Look Up is a destressing social media app where users can create their own profi
 ## Usage
 From the homepage, you can navigate to the login page to make an account. If you are not logged in and click profile in the nav bar, you will be redirected to the signup/login page. To create an account, type in your preferred username, your email and create a password that is longer than 8 characters. When you login, you were be redirected to your profile page that will show all the pictures you have posted. When you navigate to the home page, there you will see all the posts from registered users in the feed. Users can log out when they are done. They can view the home page and posts without signing it, however if they want to post another image, the users might login back into their account.
 
-### Screenshot
+### Screenshots
 ![Alt text](screenshots/home.png "Homepage")
 ![Alt text](screenshots/profile.png "Profile")
 ![Alt text](screenshots/login.png "Login")
